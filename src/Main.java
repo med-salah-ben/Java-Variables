@@ -8,12 +8,12 @@ public class Main {
 
         float floatMaxValue = Float.MAX_VALUE;
         float floatMinValue = Float.MIN_VALUE;
-        System.out.println("Float max Value = "+ floatMaxValue);
-        System.out.println("Float min Value = "+ floatMinValue);
+        System.out.println("Float max Value = "+ floatMaxValue); // 3.4028235E38
+        System.out.println("Float min Value = "+ floatMinValue); // 1.4E-45
 
         double doubleMaxValue = Double.MAX_VALUE;
         double doubleMinValue = Double.MIN_VALUE;
-        System.out.println("Double Max Value = " + doubleMaxValue);
-        System.out.println("Double Min Value = " + doubleMinValue);
+        System.out.println("Double Max Value = " + doubleMaxValue); // 1.7976931348623157E308
+        System.out.println("Double Min Value = " + doubleMinValue); // 4.9E-324
     }
 }
