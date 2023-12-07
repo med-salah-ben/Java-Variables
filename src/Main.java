@@ -3,9 +3,11 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        int num1 = 4 ;
-        int num2 = 10;
+        double num1 = 2 ; //percesion bigger than float
+        float num2 = 10;
         System.out.println(num1 +  num2);
+        System.out.println(num1 +  num2 * 3);
+        System.out.println(num1 +  (num2 * 3));
         System.out.println(num1 -  num2);
         System.out.println(num1 *  num2);
         System.out.println(num2 /  num1);
